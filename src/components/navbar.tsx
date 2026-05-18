@@ -15,6 +15,7 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-8 text-sm text-zinc-400">
           <a href="#features" className="hover:text-white transition-colors">Features</a>
+          <a href="#docs" className="hover:text-white transition-colors">Docs</a>
           <a href="#install" className="hover:text-white transition-colors">Install</a>
           <a href="#compare" className="hover:text-white transition-colors">Compare</a>
           <a

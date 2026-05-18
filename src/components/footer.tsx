@@ -25,12 +25,12 @@ export function Footer() {
               GitHub
             </a>
             <a
-              href="https://github.com/agentvoy/agentvoy"
+              href="https://github.com/agentvoy/oculos.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
             >
-              AgentVoy
+              Website
             </a>
           </div>
         </div>

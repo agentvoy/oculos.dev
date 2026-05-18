@@ -20,7 +20,7 @@ const integrations = [
   {
     title: "Standalone SDK",
     subtitle: "Any Python agent",
-    code: `from oculos_sdk import Oculos\nax = Oculos(server="http://localhost:9090")\nax.register(name="my-agent")`,
+    code: `from oculos_sdk import Oculos\nax = Oculos(server="http://localhost:9090")\nax.register(name="my-agent", model="gpt-4o")\n\nwith ax.task("summarize", budget="$2.00") as t:\n    t.report_cost(0.045, model="gpt-4o")\n    t.complete(result)`,
     gradient: "from-indigo-500/10 to-transparent",
   },
   {

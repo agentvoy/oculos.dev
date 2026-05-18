@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/hero-section";
 import { FeaturesSection } from "@/components/features-section";
+import { DocsSection } from "@/components/docs-section";
 import { InstallSection } from "@/components/install-section";
 import { ComparisonSection } from "@/components/comparison-section";
 import { Footer } from "@/components/footer";
@@ -12,6 +13,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <FeaturesSection />
+        <DocsSection />
         <InstallSection />
         <ComparisonSection />
       </main>
